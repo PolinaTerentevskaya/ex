@@ -1,0 +1,515 @@
+/* satisfy-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/satisfy-v17-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/satisfy-v17-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+body{
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper1{
+    max-width: 1165px;
+    margin: 0 auto;
+}
+
+.wrapper2{
+    max-width: 979px;
+    margin: 0 auto;
+    
+}
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__iten{
+    margin-right: 59px;
+    display: block;
+}
+.header__iten:last-child{
+    margin-right: 0;
+}
+
+.header__link{
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+
+}
+
+nav ul ul { 
+    display: none; 
+    position: absolute; 
+    top: 100%; 
+} 
+ 
+/* отображаем выпадающий список при наведении */ 
+nav ul li:hover > ul { 
+    display:inherit; 
+} 
+ 
+/* первый уровень выпадающего списка */ 
+nav ul ul li { 
+    min-width:170px; 
+    float:none; 
+    display:list-item; 
+    position: relative; 
+}
+
+.intro{
+    padding-top: 154px;
+
+}
+
+.intro__title{
+    max-width: 485px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 24px;
+    
+}
+
+.intro__subtitle{
+    max-width: 365px;
+    color: #939CA6;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 92px;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.button__submit{
+    padding: 20px 102px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    background: #FFFFFF;
+}
+
+.button__submit:hover, .button__submit:focus, .button__submit:active{
+    opacity: .75;
+}
+
+.intro__pic{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 500px;
+    margin-top:-470px;
+    
+}
+
+.intro__pic-thumd{
+    display: block;
+    float: right;
+}
+
+.benefits__wrap{
+    margin: 0 auto;
+}
+
+.benefits__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 8em
+}
+
+.benefits__cards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 35px;
+    padding: 0 100px;
+}
+
+.benefits__card{
+    grid-column: span 1;
+}
+
+.benefits__card-pic{
+    margin-bottom: 37px; 
+    max-width: 875px;
+}
+
+.benefits__card-thumb{
+    display: block;
+}
+
+.benefits__card-title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+
+.chapter__condition{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 17em
+}
+
+.leftimg{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0;
+}
+
+.rightimg{
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px;
+}
+
+.leftimg1{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0;
+}
+
+.chapter__subtitle{
+    max-width: 485px;
+    font-weight: 400;
+    font-size: 36px;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+.chapter__subsubtitle{
+    max-width: 344px;
+    font-weight: 400;
+    font-size: 36px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.chapter__pic{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 500px;
+    margin-top:-315px;
+    max-width: 400px;
+}
+.chapter__pic-thumd{
+    display: block;
+    float: right;
+}
+
+.chapter__subtitle1{
+    max-width: 485px;
+    font-weight: 400;
+    font-size: 36px;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+.chapter__subsubtitle1{
+    max-width: 366px;
+    font-weight: 400;
+    font-size: 36px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.chapter__pic1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top:-415px;
+    max-width: 400px;
+}
+.chapter__pic-thumd1{
+    display: block;
+    float: right;
+}
+
+.chapter__subtitle2{
+    max-width: 485px;
+    font-weight: 400;
+    font-size: 36px;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+.chapter__subsubtitle2{
+    max-width: 282px;
+    font-weight: 400;
+    font-size: 36px;
+    font-size: 24px;
+    line-height: 29px;
+   
+}
+
+.chapter__pic2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -365px;
+    max-width: 400px;
+}
+.chapter__pic-thumd2{
+    display: block;
+    float: right;
+}
+
+.if__wrap{
+    margin: 0 auto;
+}
+
+.if__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20em
+}
+
+.if__card-title{
+    font-weight: 600;
+    font-size: 24px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.if__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 35px;
+    padding: 0 100px;
+}
+
+.if__card{
+    grid-column: span 1;
+}
+
+.if__card-pic{
+    margin-bottom: 37px; 
+    max-width: 200px;
+}
+
+.if__card-thumb{
+    display: block;
+}
+
+.quaten__wrap{
+    margin: 0 auto;
+}
+
+.quaten__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 15em
+}
+
+
+
+
+
+.quaten__card-pic{
+    margin-bottom: 37px; 
+    max-width: 1900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.quaten__card-thumb{
+    display: block;
+}
+
+.happening__wrap{
+    margin: 0 auto;
+}
+
+.happening__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 15em
+}
+
+.happening__cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 28px;
+    padding: 0 100px;
+}
+
+.happening__card{
+    grid-column: span 1;
+}
+
+.happening__card-pic{
+    margin-bottom: 37px; 
+    max-width: 875px;
+}
+
+.happening__card-thumb{
+    display: block;
+}
+
+.happening__card-title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+
+.see__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 15em
+}
+
+.button__submit-see{
+    padding: 20px 102px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+}
+
+.details__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 15em
+}
+
+.details__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 23em
+}
+
+.search-form__info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 365px;
+}
+
+.search-form__field{
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+}
+
+.search-form__submit:hover, .button__submit:focus, .button__submit:active{
+    opacity: .75;
+}
+
+footer {
+    background-color:slategray;
+    color: white;
+    display: block;
+    height: 400px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.footer__iten{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__menu1{
+    width: 25%;
+}
+
+.footer__nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__menu-link{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    display: block;
+}
